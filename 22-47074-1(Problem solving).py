@@ -1,4 +1,4 @@
-problem 1
+#problem 1
 
 # Two integer inputs from user
 X = int(input("Enter the first integer: "))
@@ -12,7 +12,7 @@ print("X:", X)
 print("Y:", Y)
 print("Z:", Z)
 
-problem 2
+#problem 2
 
 import sys
 # Print the Python version
@@ -21,15 +21,15 @@ import platform
 # Print the Python version
 print("Python version using platform:", platform.python_version())
 
-problem 3
+#problem 3
 
 help('modules')
 
-problem 4
+#problem 4
 
 print("Value", end="")
 
-problem 5
+#problem 5
 
 # Take an integer input from the user
 number = int(input("Enter an integer: "))
@@ -40,7 +40,7 @@ if number % 2 == 0:
 else:
     print("The number is odd.")
 
-problem 6
+#problem 6
 
 #without using funtion:
 a = input("Enter the value of a: ")
@@ -81,7 +81,7 @@ print("After swapping:")
 print("a =", a)
 print("b =", b)
 
-problem 7
+#problem 7
 
 # Define a list of numbers
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -92,7 +92,7 @@ for number in numbers:
     if number % 2 == 0:
         print(number, end=" ")
 
-problem 8
+#problem 8
 
 # Take a character input from the user
 char = input("Enter a character: ").lower()
@@ -106,7 +106,7 @@ if char in vowels and len(char) == 1:
 else:
     print("The character is not a vowel.")
 
-problem 9
+#problem 9
 
 # Take a filename input from the user
 filename = input("Enter the filename: ")
@@ -117,7 +117,7 @@ extension = filename.split(".")[-1]
 # Print the extension
 print("The extension of the file is:", extension)
 
-problem 10
+#problem 10
 
 # Take a string input from the user
 input_string = input("Enter a string: ")
@@ -131,7 +131,7 @@ count = input_string.count(char_to_count)
 # Print the number of occurrences
 print(f"The character '{char_to_count}' occurs {count} times in the string.")
 
-problem 11
+#problem 11
 
 # Define a list of numbers
 numbers = [-3, 7, -2, 0, 9, -1, 4, -5]
@@ -142,7 +142,7 @@ positive_numbers = [num for num in numbers if num > 0]
 # Print the filtered positive numbers
 print("Positive numbers in the list:", positive_numbers)
 
-problem 12
+#problem 12
 
 def find_max_min(numbers):
     if not numbers:
@@ -167,7 +167,7 @@ max_number, min_number = find_max_min(numbers_list)
 print(f"The maximum number is: {max_number}")
 print(f"The minimum number is: {min_number}")
 
-problem 13
+#problem 13
 
 def count_even_odd(numbers):
     even_count = 0
@@ -188,7 +188,7 @@ even_count, odd_count = count_even_odd(numbers_list)
 print("Number of even numbers:", even_count)
 print("Number of odd numbers:", odd_count)
 
-problem 14
+#problem 14
 
 # Function to sort numbers in ascending and descending order
 def sort_numbers(numbers):
@@ -209,7 +209,7 @@ print("Original list:", numbers_list)
 print("Ascending order:", ascending)
 print("Descending order:", descending)
 
-problem 15
+#problem 15
 
 def find_longest_shortest_words(text):
     # Split the input text into words
@@ -242,7 +242,7 @@ if longest and shortest:
 else:
     print("No words found.")
 
-problem 16
+#problem 16
 
 def find_largest_smallest(numbers):
     if not numbers:
@@ -270,7 +270,7 @@ print("List of numbers:", numbers_list)
 print("Largest number:", largest)
 print("Smallest number:", smallest)
 
-problem 17 
+#problem 17 
 
 def remove_elements_at_positions(input_list, positions):
     # Sort positions in descending order to avoid index shift issues
@@ -293,7 +293,7 @@ modified_list = remove_elements_at_positions(original_list, positions_to_remove)
 print("Original list:", original_list)
 print("Modified list after removing elements at specified positions:", modified_list)
 
-problem 18
+#problem 18
 
 def print_odd_indices_values(input_list):
     # Iterate through the indices of the list
@@ -305,7 +305,7 @@ values_list = [10, 20, 30, 40, 50, 60, 70]
 print("Values at odd indices:")
 print_odd_indices_values(values_list)
 
-problem 19
+#problem 19
 
 #Sorting by value::::::::::
 #Ascending order:
@@ -349,7 +349,7 @@ my_dict = {'b': 3, 'a': 1, 'c': 2}
 sorted_dict_desc = sort_dict_by_key_descending(my_dict)
 print("Sorted dictionary by key (descending):", sorted_dict_desc)
 
-problem 20
+#problem 20
 #Using update() Method
 def merge_dicts(dict1, dict2):
     merged_dict = dict1.copy()  # Make a copy of dict1 to preserve it
@@ -363,7 +363,7 @@ dict2 = {'c': 3, 'd': 4}
 merged_dict = merge_dicts(dict1, dict2)
 print("Merged dictionary:", merged_dict)
 
-problem 21
+#problem 21
 
 def search_dict(dictionary, target_value):
     # Iterate through key-value pairs in the dictionary
